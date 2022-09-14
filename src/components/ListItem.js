@@ -7,7 +7,7 @@ export default function ListItem(props) {
     return (
         <HStack as='li' spacing='20px' {...rest}>
             <Icon as={CheckIcon} w='22px' h='22px' />
-            <Text>{children}</Text>
+            <Text textAlign='left'>{children}</Text>
         </HStack>
     )
 }

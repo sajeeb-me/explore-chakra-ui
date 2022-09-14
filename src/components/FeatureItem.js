@@ -3,9 +3,9 @@ import React from 'react'
 
 export default function FeatureItem({ children, Icon, ...rest }) {
     return (
-        <HStack {...rest} spacing='24px'>
-            <Icon boxSize='48px' />
-            <Text textAlign='left' fontSize='18px' fontWeight='700'>{children}</Text>
+        <HStack {...rest} spacing='6'>
+            <Icon boxSize='12' />
+            <Text textAlign='left' fontSize='lg' fontWeight='bold'>{children}</Text>
         </HStack>
     )
 }
